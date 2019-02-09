@@ -1,5 +1,5 @@
 {
-  "name": "api-v2",
+  "name": "summarizer-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {

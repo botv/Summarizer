@@ -1,13 +1,16 @@
 import 'bootstrap';
 import $ from 'jquery';
-import TextService from './text_service';
+import APIService from './api_service';
+import HTMLService from './html_service'
 
 $(() => {
 	chrome.tabs.getSelected((tab) => {
 		const currentURL = new URL(tab.url);
 
 		console.log(currentURL);
-	});
 
-	TextService.analyze('https://www.google.com')
+		APIService.summarize(currentURL.href, (result) => {
+			HTMLService.displaySummary(result)
+		});
+	});
 });

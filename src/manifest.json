@@ -1,23 +1,22 @@
 {
-  "name": "Integrity",
+  "name": "Summarizer",
   "version": "1.0.0",
-  "description": "Analyze any web page",
+  "description": "Instantly summarize web pages",
   "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://api.aylien.com; object-src 'self'",
   "icons": {
     "16": "images/icon-16.png",
     "128": "images/icon-128.png"
   },
   "permissions": [
     "tabs",
-    "https://*/"
+    "https://summarizer-api.herokuapp.com/"
   ],
   "browser_action": {
     "default_icon": {
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "Integrity",
+    "default_title": "Summarizer",
     "default_popup": "index.html"
   }
 }

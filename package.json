@@ -1,7 +1,7 @@
 {
-  "name": "integrity",
+  "name": "summarizer",
   "version": "1.0.0",
-  "description": "Analyze any web page",
+  "description": "Instantly summarize web pages",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",

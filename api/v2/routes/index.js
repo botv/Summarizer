@@ -8,19 +8,11 @@ const textAPI = new AYLIENTextAPI({
 
 const router = express.Router();
 
-router.get('/summarize', (req, res) => {
+router.get('/', (req, res) => {
 	textAPI.summarize({
 		url: decodeURIComponent(req.query.url),
 		sentences_number: 3
 	}, (error, result) => {
-		res.send(result)
-	});
-});
-
-router.get('/sentiment', (req, res) => {
-	textAPI.sentiment({
-		url: decodeURIComponent(req.query.url)
-	}, function(error, result) {
 		res.send(result)
 	});
 });
