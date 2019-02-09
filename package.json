@@ -1,0 +1,22 @@
+{
+  "name": "integrity",
+  "version": "1.0.0",
+  "description": "Analyze any web page",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "compress": "zip -r versions/$npm_package_version.zip dist/*"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "firebase": "^5.8.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
