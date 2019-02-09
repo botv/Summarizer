@@ -1,5 +1,5 @@
 {
-  "name": "v2",
+  "name": "api-v2",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "aylien_textapi": "^0.7.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
     "express": "~4.16.0"
   }
 }
