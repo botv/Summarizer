@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/integrity.iml" filepath="$PROJECT_DIR$/.idea/integrity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/summarizer.iml" filepath="$PROJECT_DIR$/.idea/summarizer.iml" />
     </modules>
   </component>
 </project>
