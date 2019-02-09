@@ -8,4 +8,6 @@ $(() => {
 
 		console.log(currentURL);
 	});
+
+	TextService.analyze('https://www.google.com')
 });
