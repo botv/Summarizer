@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Analyze any web page",
   "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://api.aylien.com; object-src 'self'",
   "icons": {
     "16": "images/icon-16.png",
     "128": "images/icon-128.png"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "https://*/"
   ],
   "browser_action": {
     "default_icon": {
